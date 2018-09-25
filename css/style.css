@@ -1,0 +1,58 @@
+#banner img{
+	width: 100%
+}
+
+.main{
+	padding: 15px 0;
+}
+
+.footer{
+	background: #333;
+	color: #fff
+}
+.footer .ft-form form{
+	margin-top: 10px
+}
+.footer .ft-form input.form-control{
+	width: 280px
+}
+
+.left-img{
+	padding: 10px 0
+}
+
+.left-img img{
+	width: 100%
+}
+
+.about-content{
+margin-bottom: 15px;
+}
+
+.about-content p{
+	line-height: 22px
+}
+
+.blogs{
+	padding: 15px 0
+}
+
+.text-yellow{
+	color: yellow
+}
+
+.comment-list{
+	padding: 15px 0;
+}
+
+.product-detail img{
+	width: 100%
+}
+
+.product-thumb img{
+	width: 64px
+}
+
+.comment-list img{
+	width: 60px
+}

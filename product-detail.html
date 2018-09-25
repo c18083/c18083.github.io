@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Denmo trang chủ</title>
+	<link rel="stylesheet" href="css/cloudzoom.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Trang chủ</a></li>
+				<li><a href="about.html">Giới thiệu</a></li>
+				<li><a href="product.html">Sản phẩm</a></li>
+				<li><a href="blog.html">Tin tức</a></li>
+				<li><a href="contact.html">Liên hệ</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<div id="banner" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#banner" data-slide-to="0" class=""></li>
+			<li data-target="#banner" data-slide-to="1" class="active"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item">
+				<img src="images/banner-1.jpg" alt="">
+			</div>
+			
+			<div class="item active">
+				<img src="images/banner-2.jpg" alt="">
+			</div>
+		</div>
+		<a class="left carousel-control" href="#banner" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+		<a class="right carousel-control" href="#banner" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	</div>
+	
+	<main class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 left">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">Danh mục sản phẩm</h3>
+						</div>
+						<ul class="list-group">
+							<li class="list-group-item">
+								<span class="badge">5</span>
+								Item 1
+							</li>
+							<li class="list-group-item">
+								<span class="badge">10</span>
+								Item 2
+							</li>
+							<li class="list-group-item">
+								<span class="badge">15</span>
+								Item 3
+							</li>
+						</ul>
+					</div>
+
+					<div class="left-img">
+						<a href="" title="">
+							<img src="images/left-banner-1.jpg" alt="" class="img-responsive">
+						</a>
+					</div>
+
+					<div class="left-img">
+						<a href="" title="">
+							<img src="images/lbn2.jpg" alt="" class="img-responsive">
+						</a>
+					</div>
+
+					<div class="left-img">
+						<a href="" title="">
+							<img src="images/lbn3.jpg" alt="" class="img-responsive">
+						</a>
+					</div>
+
+					<div class="left-img">
+						<a href="" title="">
+							<img src="images/lbn4.jpg" alt="" class="img-responsive">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-9 product-detail">
+					<div class="product-content row">
+						<div class="col-md-5">
+							<img  class="cloudzoom img-responsive" alt ="Cloud Zoom small image" id ="zoom1" src="images/product/2.jpg"
+					             title="Cloud Zoom has many configuration options to match the look and feel of your website"
+					             data-cloudzoom='
+					             zoomImage:"images/product/2.jpg",
+					             zoomSizeMode: "image",
+					             tintColor:"#000",
+					             tintOpacity:0.25,
+					             captionPosition:"bottom",
+					             maxMagnification:4,
+					             autoInside:750,
+					        '>
+					        <div class="clearfix"></div>
+					        <div class="product-thumb text-center">
+						        <a href="images/product/2.jpg" class="thumb-link">    
+						            <img class="cloudzoom-gallery" width="64" 
+						                 src="images/product/2.jpg"
+						                 title="Cloud Zoom has many configuration options to match the look and feel of your website"
+						                 alt ="Cloud Zoom thumb image"
+						                 data-cloudzoom='
+						                 useZoom:"#zoom1",
+						                 image:"images/product/2.jpg",
+						                 zoomImage:"images/product/2.jpg"
+						            '>
+						        </a>
+
+						        <a href="images/product/1.jpg" class="thumb-link">
+						            <img class="cloudzoom-gallery" width="64" 
+						                 src="images/product/1.jpg"
+						                 alt ="Cloud Zoom thumb image"
+						                 title="Works great with iPad and other touch-enabled devices"
+						                 data-cloudzoom='
+						                 useZoom:"#zoom1",
+						                 image:"images/product/1.jpg",
+						                 zoomImage:"images/product/1.jpg"
+						            '>
+						        </a>
+
+						        <a href="images/product/2.jpg" class="thumb-link">
+						            <img class="cloudzoom-gallery"  width="64" 
+						                src="images/product/2.jpg"
+						                 alt ="Cloud Zoom thumb image"
+						                 title="Regular free updates and new features with technical support"
+						                 data-cloudzoom='
+						                 useZoom:"#zoom1",
+						                 image:"images/product/2.jpg"
+						            '>
+						        </a>
+						     </div>
+						</div>
+						<div class="col-md-7">
+							<h1>Tên sản phẩm</h1>
+							<p>
+								<b>Giá mới: 500.000 Đ</b>
+								<s>Giá: cũ 700.000 Đ</s>
+							</p>
+							<p><strong>Mô tả: </strong></p>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque soluta molestias unde eum dolore sequi natus praesentium dignissimos facilis, voluptas repellat, quod animi distinctio veniam ex aspernatur. Magnam, dolore, voluptate?
+							</p>
+							<p>
+								<form action="cart.html" method="POST" class="form-inline" role="form">
+								
+									<div class="form-group">
+										<input type="number" class="form-control" >
+									</div>
+								
+									<button type="submit" class="btn btn-danger">
+										<i class="fas fa-cart-arrow-down"></i> Thêm vào giỏ hàng
+									</button>
+								</form>
+							</p>
+							<p>
+								<div class="btn-group">
+									<button type="button" class="btn btn-danger"><i class="fab fa-google-plus-g"></i></button>
+									<button type="button" class="btn btn-primary"><i class="fab fa-facebook"></i></button>
+									<button type="button" class="btn btn-success"><i class="fab fa-youtube"></i></button>
+								</div>
+							</p>
+							<p><strong>Đánh giá</strong></p>
+							<p>
+								<i class="fas fa-star text-yellow"></i>
+								<i class="fas fa-star text-yellow"></i>
+								<i class="fas fa-star text-yellow"></i>
+								<i class="fas fa-star-half-alt text-yellow"></i>
+								<i class="far fa-star"></i>
+							</p>
+						</div>
+					</div>
+
+					<div class="clearfix"></div>
+					<div class="product-recent">
+						<h3>Sản phẩm liên quan</h3>
+
+						<div class="row">
+							<div class="col-md-3 prio-item">
+								<div class="thumbnail">
+									<img src="images/product/1.jpg" alt="">
+									<div class="caption text-center">
+										<h3>Sản phẩm 1</h3>
+										<p>
+											Giá: 500 $
+										</p>
+										<p>
+											<a href="#" class="btn btn-xs btn-primary">Giỏ hàng</a>
+											<a href="#" class="btn btn-xs btn-default">Xem</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 prio-item">
+								<div class="thumbnail">
+									<img src="images/product/1.jpg" alt="">
+									<div class="caption text-center">
+										<h3>Sản phẩm 1</h3>
+										<p>
+											Giá: 500 $
+										</p>
+										<p>
+											<a href="#" class="btn btn-xs btn-primary">Giỏ hàng</a>
+											<a href="#" class="btn btn-xs btn-default">Xem</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 prio-item">
+								<div class="thumbnail">
+									<img src="images/product/1.jpg" alt="">
+									<div class="caption text-center">
+										<h3>Sản phẩm 1</h3>
+										<p>
+											Giá: 500 $
+										</p>
+										<p>
+											<a href="#" class="btn btn-xs btn-primary">Giỏ hàng</a>
+											<a href="#" class="btn btn-xs btn-default">Xem</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 prio-item">
+								<div class="thumbnail">
+									<img src="images/product/1.jpg" alt="">
+									<div class="caption text-center">
+										<h3>Sản phẩm 1</h3>
+										<p>
+											Giá: 500 $
+										</p>
+										<p>
+											<a href="#" class="btn btn-xs btn-primary">Giỏ hàng</a>
+											<a href="#" class="btn btn-xs btn-default">Xem</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="clearfix"></div>
+					<div class="comments">
+						<h3><i class="fas fa-comments"></i> Các bình luận</h3>
+						<div class="form">
+							<form action="" method="POST" role="form">
+							
+								<div class="form-group">
+									<label for="">Nội dung</label>
+									<textarea name="" id="input" class="form-control" rows="3" placeholder="Nội dung bình luận"></textarea>
+								</div>
+							
+								
+							
+								<button type="submit" class="btn btn-primary"><i class="fas fa-share-square"></i> Gửi bình luận</button>
+							</form>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+					<div class="comment-list">
+						<div class="media">
+							<a class="pull-left" href="#">
+								<img class="media-object" src="images/img-teacher-03.png" alt="Image" width="60">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">
+								Jone <small>on: 15/08/2018</small>
+								</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dolorem sapiente cum, eveniet sed doloribus architecto quia alias amet, tenetur eius! Aperiam recusandae incidunt placeat soluta aliquam, aspernatur consequatur animi.</p>
+
+								<div class="media">
+									<a class="pull-left" href="#">
+										<img class="media-object" src="images/img-teacher-03.png" alt="Image" width="60">
+									</a>
+									<div class="media-body">
+										<h4 class="media-heading">
+										Jone <small>on: 15/08/2018</small>
+									</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dolorem sapiente cum, eveniet sed doloribus architecto quia alias amet, tenetur eius! Aperiam recusandae incidunt placeat soluta aliquam, aspernatur consequatur animi.</p>
+									</div>
+								</div>
+								<div class="media">
+									<a class="pull-left" href="#">
+										<img class="media-object" src="images/img-teacher-03.png" alt="Image" width="60">
+									</a>
+									<div class="media-body">
+										<h4 class="media-heading">
+										Jone <small>on: 15/08/2018</small>
+									</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dolorem sapiente cum, eveniet sed doloribus architecto quia alias amet, tenetur eius! Aperiam recusandae incidunt placeat soluta aliquam, aspernatur consequatur animi.</p>
+									</div>
+								</div>
+								<div class="media">
+									<a class="pull-left" href="#">
+										<img class="media-object" src="images/img-teacher-03.png" alt="Image" width="60">
+									</a>
+									<div class="media-body">
+										<h4 class="media-heading">
+										Jone <small>on: 15/08/2018</small>
+									</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dolorem sapiente cum, eveniet sed doloribus architecto quia alias amet, tenetur eius! Aperiam recusandae incidunt placeat soluta aliquam, aspernatur consequatur animi.</p>
+									</div>
+								</div>
+
+							</div>
+
+
+						</div>
+
+						<div class="media">
+							<a class="pull-left" href="#">
+								<img class="media-object" src="images/img-teacher-03.png" alt="Image" width="60">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">
+								Jone <small>on: 15/08/2018</small>
+							</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dolorem sapiente cum, eveniet sed doloribus architecto quia alias amet, tenetur eius! Aperiam recusandae incidunt placeat soluta aliquam, aspernatur consequatur animi.</p>
+							</div>
+						</div>
+
+						<div class="media">
+							<a class="pull-left" href="#">
+								<img class="media-object" src="images/img-teacher-03.png" alt="Image" width="60">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">
+								Jone <small>on: 15/08/2018</small>
+							</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dolorem sapiente cum, eveniet sed doloribus architecto quia alias amet, tenetur eius! Aperiam recusandae incidunt placeat soluta aliquam, aspernatur consequatur animi.</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 text-center ft-text">
+						<h3>Từ khóa tìm kiếm</h3>
+					</div>
+					<div class="col-md-4 ft-form">
+						<form action="" method="POST" class="form-inline" role="form">
+						
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Từ khóa tìm kiếm">
+							</div>
+							
+							<button type="submit" class="btn btn-primary">Tìm</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer-top -->
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<h3>Tên của doanh nghiệp</h3>
+						<address>
+							<p>Address: 236-Hoàng Quốc VIêt.....</p>
+							<p>Email: C1803MBKAP@gmail.com</p>
+							<p>Phone: 08641541</p>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nisi veritatis commodi vel, nobis culpa error est pariatur ipsum obcaecati! Debitis nobis praesentium facilis repellat, dolore dignissimos? Assumenda doloribus, architecto.
+							</p>
+						</address>
+					</div>
+					<div class="col-md-7">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7837.794780646167!2d106.688876!3d10.819164!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527d52fb3194f%3A0xbddebcd6a069afd6!2zNTUzIFBo4bqhbSBWxINuIMSQ4buTbmcsIEhp4buHcCBCw6xuaCBDaMOhbmgsIFRo4bunIMSQ4bupYywgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1537362517063" style="width: 100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/cloudzoom.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+	<script type="text/javascript">
+	$(function(){
+	$('#zoom1').bind('click',function(){
+	    var cloudZoom = $(this).data('CloudZoom'); 
+	        cloudZoom.closeZoom();
+	        $.fancybox.open(cloudZoom.getGalleryList());
+	        return false;
+	    });
+	});
+	    
+	CloudZoom.quickStart(); // cz
+	JetZoom.quickStart();
+	StarZoom.quickStart();
+	     
+	</script>
+
+</body>
+</html>

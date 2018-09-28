@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Demo menu scroll</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+<body>
+	
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<a class="navbar-brand" href="#">Title</a>
+			<ul class="nav navbar-nav">
+				<li class="active">
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">Link</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<div class="container main-ct">
+		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod distinctio sit quae at harum voluptatem, hic corrupti aliquam odio molestias non suscipit sed dignissimos dolorem nemo tempora illo incidunt pariatur.</div>
+		<div>Dolore amet quasi ullam deserunt debitis molestias, fugit temporibus? Dolor quaerat tempore voluptatem aut explicabo sint inventore veritatis id iste et doloremque molestias, nisi officiis placeat delectus quos rerum, quas.</div>
+		<div>Neque perspiciatis cumque culpa eum sequi! Ex temporibus dolorem deleniti voluptas, labore debitis consectetur dolores harum? Consequuntur vitae veritatis debitis voluptatem, tempora libero dolore hic officia perspiciatis, nostrum esse incidunt.</div>
+		<div>Assumenda minus voluptatum sapiente quod quidem nemo nisi eius, nulla magni quasi amet tenetur quos consectetur dolores esse voluptates. Dolor temporibus inventore obcaecati? Alias sit blanditiis, voluptates distinctio dolore, placeat.</div>
+		<div>Sunt ipsam placeat eaque vero tempora fuga assumenda neque quas iste voluptatem fugit, accusamus iusto eligendi, possimus labore odit. Repudiandae sunt quasi maiores? Dicta quae quam unde sint cumque itaque.</div>
+		<div>Soluta cumque aut quaerat nesciunt, minima similique fugit neque autem atque obcaecati ullam totam voluptatem, enim, optio. Perspiciatis consequuntur magnam odio ea sequi voluptatibus vero dolore. Assumenda, magnam maiores voluptatum.</div>
+		<div>Debitis quia inventore, fugit eius, corporis tempora modi consectetur vitae. Modi iure velit animi quos voluptates necessitatibus quod unde perspiciatis, soluta culpa quas voluptas alias, consectetur molestias, consequatur quidem odit.</div>
+		<div>Nemo quaerat facilis perspiciatis obcaecati ea amet consequatur quo ducimus non dolore quia ullam similique modi animi quidem at commodi laborum unde, recusandae assumenda impedit ab cupiditate. Ut, neque, laboriosam.</div>
+		<div>Maxime, voluptas obcaecati dolore ratione quae labore doloremque minus quo omnis laborum. Debitis vel dolores nam, reiciendis magni odit. Vel suscipit nemo ratione quae voluptatibus maxime, molestias optio omnis. Molestias!</div>
+		<div>Iste quia quod tenetur, ab ea! Deleniti ratione tenetur, ex similique consectetur laudantium minima commodi dolor atque fugiat, repellat quasi maiores earum nisi iusto quod accusamus voluptatibus illo quo minus!</div>
+		<div>Ex velit officia odio, facilis fuga placeat debitis illum nemo culpa consectetur, assumenda sunt. Debitis, voluptatibus quo commodi explicabo, odio expedita. Obcaecati, amet, voluptate. Fugiat ut, maxime alias! Ducimus, esse.</div>
+		<div>Nisi ex, quos alias cum reiciendis quia hic facilis iure ut officia a, consectetur nulla molestias veritatis nemo officiis commodi porro autem minus aliquam sequi possimus? Consequatur accusantium sit quisquam?</div>
+		<div>Ut totam, reprehenderit veniam magnam veritatis odio numquam illum adipisci officiis, nemo? Dicta voluptate tempora sint tempore! Dolor, nulla, quam tempora architecto voluptatibus possimus, quasi et fuga accusamus quae esse.</div>
+		<div>Tempore porro, totam dicta voluptatibus pariatur vero laborum recusandae sit error eveniet laudantium quidem illo facere ratione blanditiis itaque velit reiciendis. Nihil molestias necessitatibus aut nam est ut, sapiente dolores.</div>
+		<div>Ullam nam enim saepe expedita est eos, iusto non fugiat numquam optio quisquam amet modi similique nobis officia at perspiciatis. Ea porro officia sit totam accusamus accusantium explicabo inventore quos.</div>
+		<div>Architecto doloremque ex omnis ratione velit excepturi rem sed et corrupti. Voluptates eum distinctio aliquam consectetur atque quo, aut sed deserunt incidunt velit, repellat mollitia cumque totam molestias, unde hic!</div>
+		<div>Pariatur nam quod magnam ducimus molestias ab, culpa amet assumenda perspiciatis, placeat voluptatum. Esse sint vero labore doloribus amet quaerat nihil alias ab sunt, natus! Rerum, culpa nisi aperiam porro.</div>
+		<div>Recusandae qui sint quasi dolore dicta molestias facilis amet perspiciatis earum, ad aut quas illum vel, aperiam voluptatibus labore corporis expedita temporibus repellendus accusantium unde, architecto. Voluptatem quibusdam, quos dolorum!</div>
+		<div>At molestias, recusandae tempore delectus repellat maxime temporibus, iste mollitia officia non saepe possimus. Vero culpa, nemo molestias delectus perspiciatis ipsa adipisci et, blanditiis, nihil eligendi impedit error. Quasi, ad.</div>
+		<div>Beatae laudantium, quibusdam. Eligendi corrupti debitis veritatis dolores aperiam asperiores tempora repellendus blanditiis, quis, facilis excepturi! Illo alias perferendis aperiam laborum reprehenderit fugiat reiciendis cupiditate ipsum, ad fuga porro cum.</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	
+	<script type="text/javascript">
+		$(window).scroll(function(){
+			var top = $(window).scrollTop();
+			if(top >=300){
+				$('.navbar-inverse').addClass('navbar-fixed-top');
+				$('.navbar-inverse').css({
+					background:'green'
+				});
+			}else{
+				$('.navbar-inverse').removeClass('navbar-fixed-top');
+				$('.navbar-inverse').css({
+					background:'darkblue'
+				});
+			}
+			console.log(top);
+		});
+	</script>
+</body>
+</html>
